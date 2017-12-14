@@ -1,0 +1,60 @@
+body {
+background: #8E0E00;  /* fallback for old browsers */
+background: -webkit-radial-gradient(#1F1C18, #8E0E00);  /* Chrome 10-25, Safari 5.1-6 */
+background: radial-gradient(#1F1C18, #8E0E00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+.board {
+	line-height: 0;
+	margin: auto;
+	margin-top: 20px;
+	box-shadow: 0 0 30px white;
+}
+
+.box {
+	display: inline-block;
+	border: 1px solid #0d141d;
+	width: 15px;
+	height: 15px;
+	margin-left: -1px;
+	margin-bottom: -1px;
+}
+
+.box:hover {
+	background: #DEDAD9;
+}
+
+.on {
+	background: #129F40;
+}
+
+.off {
+	background: #1F1C18;
+}
+
+h1, h3 {
+	color: #DEDAD9;
+	margin: auto;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.buttonSettings {
+	border: 2px solid #8E0E00;
+}
+
+.buttonSettings > button.ui.button:hover {
+	background: #8E0E00;
+}
+
+button.ui.button.activeSpeed {
+	background: #8E0E00;
+}
+
+button.ui.button.activeSpeed:focus {
+	background: #8E0E00;
+}
+
